@@ -1,19 +1,10 @@
 {
     "compilerOptions": {
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
-        "target": "ES2022",
-        "baseUrl": ".",
-        "jsx": "preserve",
-        "paths": {
-            "@/*": ["src/*"]
-        },
-        "allowImportingTsExtensions": true,
-        "strictNullChecks": true,
-        "strictFunctionTypes": true
+      "baseUrl": ".",
+      "jsx": "preserve",
+      "paths": {
+        "@/*": ["src/*"]
+      }
     },
-    "exclude": [
-        "node_modules",
-        "**/node_modules/*"
-    ]
-}
+    "exclude": ["node_modules", "dist"]
+  }
