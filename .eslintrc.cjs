@@ -31,5 +31,9 @@ module.exports = {
 				arrowParens: 'avoid',
 			},
 		],
+		'vue/multi-word-component-names': 'off',
+	},
+	editor: {
+		formatOnSave: true,
 	},
 };

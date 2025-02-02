@@ -1,15 +1,11 @@
-<template>    
-  <main>
-    <div class="container py-4">
-      <h2>Hellow Vue3</h2>
-    </div>
-  </main>
+<template>
+	<main>
+		<div class="container py-4">
+			<RouterView></RouterView>
+		</div>
+	</main>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
